@@ -156,6 +156,7 @@ nav {
     margin-bottom: 10px;
 }
 
+/* pricing css start  */
 
 .pricing-container {
     display: grid;
@@ -163,6 +164,7 @@ nav {
     grid-template-columns: repeat(3, 1fr);
 
     gap: 25px;
+    margin-bottom: 70px;
 }
 
 .pricing-text {
@@ -172,10 +174,15 @@ nav {
 
 .pricing-text h1 {
     font-size: 60px;
+    font-weight: 600;
 }
 
 .pricing-text p {
     font-size: 20px;
+    font-weight: 200;
+    color: #586c7d;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 .card {
@@ -185,12 +192,13 @@ nav {
     padding: 46px 20px;
     display: flex;
     flex-direction: column;
-    width: 70%;
+    
 }
 
 .card .plan {
     font-size: 15px;
     font-weight: 400;
+    color: #586c7d;
 }
 
 .card h3 {
@@ -248,7 +256,7 @@ nav {
 }
 
 .cmn {
-    color: rgb(163, 158, 158);
+    color: #2563eb !important;
 }
 
 .Active button {
@@ -261,6 +269,7 @@ nav {
     color: white;
 
 }
+/* pricing css End  */
 
 /* Ai css part start */
 
