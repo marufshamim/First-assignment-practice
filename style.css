@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Navigation section start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0px;
+}
+
+.logo {}
+
+.logo img {
+    max-width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links li {}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #9b8e8e;
+}
+
+.btns {}
+
+.btns button {
+    background: #3d62cf;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+
+/* Navigation section End */
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .65)), url("./assets/banner.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.banner-content {}
+
+.banner-content h2 {
+    color: white;
+    font-size: 81px;
+}
+
+.banner-content p {
+    color: white;
+    width: 51%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.banner-content .btn {}
+
+.banner-content .btn button {
+    margin-top: 100px;
+    padding: 12px 18px;
+    font-size: 20px;
+    border-radius: 8px;
+    color: white;
+    background: #00459d;
+    border: none;
+}
+
+/* speker section  */
+.speaker-section {}
+
+.speaker-section h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.speaker-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.speaker-card {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.speaker-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.speaker-info {
+    padding: 15px;
+}
+
+.category {
+    display: inline-block;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+
+.pricing-container {
+     display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+}
+
+.pricing-text {
+    text-align: center;
+    margin: 50px 0px;
+}
+.pricing-text h1{
+    font-size: 60px;
+}
+.pricing-text p{
+    font-size: 20px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+}
+.card .plan{
+    font-size: 15px;
+    font-weight: 400;
+}
+.card h3{
+    font-size: 30px;
+}
+
+.card ul {
+    padding-left: 20px;
+    
+}
+.card button{
+     margin-top:20px;
+
+    padding:14px;
+
+    border:1px solid #2563eb;
+
+    background:#fff;
+
+    color:#2563eb;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+    font-weight:bold;
+}
